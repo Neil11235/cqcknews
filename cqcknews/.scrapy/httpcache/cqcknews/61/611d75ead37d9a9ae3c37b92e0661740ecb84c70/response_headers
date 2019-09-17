@@ -1,0 +1,12 @@
+Server: nginx
+Date: Tue, 17 Sep 2019 02:40:24 GMT
+Content-Type: text/html; charset=GB2312
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+Expires: Tue, 17 Sep 2019 02:42:24 GMT
+Cache-Control: max-age=120
+X-Cache: from www-hy
+X-Cache: MISS from shenzhen.qq.com
+Content-Encoding: gzip
