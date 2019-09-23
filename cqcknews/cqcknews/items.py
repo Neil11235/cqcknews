@@ -10,6 +10,10 @@ import scrapy
 class CqcknewsItem(scrapy.Item):
     # 新闻地区
     city = scrapy.Field()
+    # 新闻省市
+    province = scrapy.Field()
+    # 新闻市区县区别
+    city_type = scrapy.Field()
     # 新闻标题
     title = scrapy.Field()
     # 新闻原链接

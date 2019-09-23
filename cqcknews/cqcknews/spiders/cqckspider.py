@@ -76,13 +76,14 @@ class dayu_spider(scrapy.Spider):
         item['time'] = time
         item['content'] = news
         item['cover'] = json.dumps(cover_list, ensure_ascii=False)
+        item['province'] = '重庆'
 
         yield item
 
 
 class fuling_spider(scrapy.Spider):
     '''涪陵公交网新闻爬虫类'''
-    #name = 'cqcknews'  # entrypoint调试入口
+    # name = 'cqcknews'  # entrypoint调试入口
     allowed_domains = ['fuling.gongjiao.com']
     base_url = 'http://fuling.gongjiao.com/new_18128'
     link_list = []
@@ -129,5 +130,7 @@ class fuling_spider(scrapy.Spider):
         item['time'] = time_str
         item['content'] = str
         item['cover'] = ''
+        item['city_type'] = '重庆城区'
+        item['province'] = '重庆'
 
         yield item

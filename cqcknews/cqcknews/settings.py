@@ -90,7 +90,7 @@ HTTPCACHE_IGNORE_HTTP_CODES = []
 HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
 # mysql database setting
-MYSQL_HOST = '94.191.8.225'
+MYSQL_HOST = '139.186.31.170'
 MYSQL_DATABASE = 'cqck-news'
 MYSQL_PORT = 3306 #端口号是数字!!!
 MYSQL_USER = 'travel'
